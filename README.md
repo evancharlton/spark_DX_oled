@@ -12,6 +12,6 @@ http://docs.spark.io/cli/
 
 Go to previous level of the project folder and execute:
 
-"spark compile spak_DX_oled"
+"spark compile spark_DX_oled"
 
 All code must be compiled and you can flash your bin to your core.
