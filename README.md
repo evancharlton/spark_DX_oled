@@ -10,6 +10,15 @@ http://www.dx.com/p/0-96-128x64-i2c-interface-blue-color-oled-display-module-for
 You can compile the project using spark-cli:
 http://docs.spark.io/cli/
 
+
+Wiring:
+
+Spark pin D0 --> SDA
+Spark pin D1 --> SCL
+
+Spark GND --> GND
+Spark 3v3 --> VCC
+
 Go to previous level of the project folder and execute:
 
 "spark compile spark_DX_oled"
