@@ -7,6 +7,8 @@ Display Module for Arduino / AVR / ARM / PIC from Dealextreme
 Buy it here:
 http://www.dx.com/p/0-96-128x64-i2c-interface-blue-color-oled-display-module-for-arduino-avr-arm-pic-346542#.VGpL0lfF_Tp
 
+I am using it for Spark Core projects.
+
 You can compile the project using spark-cli:
 http://docs.spark.io/cli/
 
