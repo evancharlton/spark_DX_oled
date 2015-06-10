@@ -1,0 +1,7 @@
+{
+    "name": "128x64_OLED",
+    "author": "Evan Charlton <evancharlton@gmail.com>",
+    "license": "BSD",
+    "version": "1.0.0",
+    "description": "Adafruit_SSD1306 ported to a generic 128x64 I2C OLED display for use on Spark Core"
+}

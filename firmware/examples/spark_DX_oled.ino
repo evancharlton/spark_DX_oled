@@ -1,4 +1,4 @@
-#include "Adafruit_ssd1306syp.h"
+#include "128x64_OLED/Adafruit_ssd1306syp.h"
 
 #define SDA_PIN 0
 #define SCL_PIN 1

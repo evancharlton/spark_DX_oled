@@ -2,8 +2,11 @@
 FIRMWARE = firmware_makefile.bin
 
 # Kick off a remote compile, saving it to $(FIRMWARE).
-online:
-	particle compile . --saveTo $(FIRMWARE)
+library:
+	particle compile firmware/ --saveTo $(FIRMWARE)
+
+example:
+	particle compile firmware/examples/ --saveTo $(FIRMWARE)
 
 # Delete previously-compiled binary, if it exsts.
 clean:
@@ -12,6 +15,12 @@ clean:
 # Flash the generated binary to a given $(DEVICE), or --usb if no device
 # has been specified.
 flash: clean online
+ifeq ($(DEVICE),)
+	particle flash --usb $(FIRMWARE)
+endif
+	particle flash $(DEVICE) $(FIRMWARE)
+
+flash-example: clean example
 ifeq ($(DEVICE),)
 	particle flash --usb $(FIRMWARE)
 endif
