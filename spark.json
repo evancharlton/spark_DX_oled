@@ -1,5 +1,5 @@
 {
-    "name": "128x64_OLED",
+    "name": "OLED_128x64",
     "author": "Evan Charlton <evancharlton@gmail.com>",
     "license": "BSD",
     "version": "1.0.0",
